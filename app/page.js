@@ -5,7 +5,7 @@ import { Banner } from "./components/Banner/Banner";
 import { CardsListSection } from "./components/CardsListSection/CardsListSection";
 import { Promo } from "./components/Promo/Promo";
 import { useGetDataByCategory } from "./api/api-hooks";
-import { Preloader } from "@/app/components/Preloader/Preloader";
+import { Preloader } from "./components/Preloader/Preloader";
 
 export default function Home() {
   const popularGames = useGetDataByCategory(endpoints.games, "popular");

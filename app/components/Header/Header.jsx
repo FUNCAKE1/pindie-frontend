@@ -10,7 +10,7 @@ import { AuthForm } from "../AuthForm/AuthForm";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { useStore } from "@/app/store/app-store";
+import { useStore } from "../../store/app-store";
 
 export const Header = () => {
   const [popupIsOpened, setPopupIsOpened] = useState(false);

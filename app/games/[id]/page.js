@@ -6,10 +6,10 @@ import {
   checkIfUserVoted,
   vote,
 } from "../../api/api-utils";
-import { GameNotFound } from "@/app/components/GameNotFound/GameNotFound";
-import { Preloader } from "@/app/components/Preloader/Preloader";
+import { GameNotFound } from "../../components/GameNotFound/GameNotFound";
+import { Preloader } from "../../components/Preloader/Preloader";
 import { useState, useEffect } from "react";
-import { useStore } from "@/app/store/app-store";
+import { useStore } from "../../store/app-store";
 
 import Styles from "./Game.module.css";
 
