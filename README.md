@@ -1,1 +1,1 @@
-Мой бекэнд: https://admin-pindie.nomoredomainswork.ru
+Мой бекэнд: https://pindie-admin.nomoredomainswork.ru
